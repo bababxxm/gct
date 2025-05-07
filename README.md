@@ -86,7 +86,7 @@ int main(void)
 If you're using this as part of a bigger project, include the `.c` and `.h` files and compile with:
 
 ```bash
-gcc -Iinclude sources/gct.c your_code.c -o your_program
+gcc -Iinclude gct your_code.c -o your_program
 ```
 
 If you use a Makefile, add the relevant objects and headers accordingly.
