@@ -6,11 +6,11 @@
 #    By: sklaokli <sklaokli@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/18 19:44:55 by sklaokli          #+#    #+#              #
-#    Updated: 2025/05/08 00:06:05 by sklaokli         ###   ########.fr        #
+#    Updated: 2025/05/08 11:52:23 by sklaokli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		:=	gct
+NAME		:=	gct.a
 
 SRC_DIR		:=	sources
 OBJ_DIR		:=	objects
