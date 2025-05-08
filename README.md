@@ -1,7 +1,6 @@
 # GCT (Garbage Collector Tracker)
 
 A minimal and lightweight garbage collection system for C programs, written for memory safety and convenience during development.
-Developed as part of 42 School exercises by **sklaokli**.
 
 ---
 
