@@ -6,7 +6,7 @@
 #    By: sklaokli <sklaokli@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/18 19:44:55 by sklaokli          #+#    #+#              #
-#    Updated: 2025/05/08 11:52:23 by sklaokli         ###   ########.fr        #
+#    Updated: 2025/05/31 18:41:26 by sklaokli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,11 +54,11 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 clean:
 				@ $(RM) $(OBJ_DIR)
-				@ echo "$(CYAN)All $(NAME) object files have been cleaned.$(RESET)"
+				@ echo "$(CYAN)$(NAME) object files cleaned.$(RESET)"
 
 fclean:			clean
 				@ $(RM) $(NAME)
-				@ echo "$(CYAN)All $(NAME) executable files have been cleaned.$(RESET)"
+				@ echo "$(CYAN)$(NAME) files cleaned.$(RESET)"
 
 re:				fclean all
 
