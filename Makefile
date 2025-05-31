@@ -6,15 +6,15 @@
 #    By: sklaokli <sklaokli@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/18 19:44:55 by sklaokli          #+#    #+#              #
-#    Updated: 2025/05/31 18:41:26 by sklaokli         ###   ########.fr        #
+#    Updated: 2025/05/31 18:51:53 by sklaokli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		:=	gct.a
 
-SRC_DIR		:=	sources
-OBJ_DIR		:=	objects
-INC_DIR		:=	include
+SRC_DIR		:=	src
+OBJ_DIR		:=	obj
+INC_DIR		:=	inc
 
 FILES		:=	gct.c
 
@@ -58,7 +58,7 @@ clean:
 
 fclean:			clean
 				@ $(RM) $(NAME)
-				@ echo "$(CYAN)$(NAME) files cleaned.$(RESET)"
+				@ echo "$(CYAN)$(NAME) executable files cleaned.$(RESET)"
 
 re:				fclean all
 
